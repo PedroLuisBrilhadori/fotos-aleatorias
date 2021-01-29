@@ -1,4 +1,5 @@
 var images = document.createElement('img');
+var textoImagen = document.createElement('p')
 
 var fotos = ['./src/animais.jpg', './src/animais1.jpg', './src/animais3.jpg', './src/animais4.jpg', 
 './src/animais5.jpg', './src/animais6.jpg', './src/animais7.jpg', './src/animais8.jpg', './src/animais9.jpg', 
@@ -11,6 +12,10 @@ var fotos = ['./src/animais.jpg', './src/animais1.jpg', './src/animais3.jpg', '.
 
 
 function randomImage( ){
+    
+    textoImagen.textContent = 'Para voltar, clique na imagem!'
+    DivTextRandomImage.appendChild(textoImagen);
+
     let i = Fazrandom(fotos.length, 0)
     images.src = fotos[i]
     ButtonImageRandom.appendChild(images);
@@ -20,7 +25,6 @@ function randomImage( ){
         node.parentNode.removeChild(node);
     }
 }
-
 
 
 

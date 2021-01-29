@@ -1,0 +1,21 @@
+.div-text-main{
+    text-align: center;
+    font: bold 50px verdana;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.img-button{
+    width: 320px;
+    height: 320px;
+}
+
+.div-button-img{
+    text-align: center;
+    margin: 5%;
+}
+
+.div-img-random{
+    text-align: center;
+    margin: 2%;
+}

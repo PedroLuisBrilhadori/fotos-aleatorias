@@ -3,15 +3,16 @@ var textoImagen = document.createElement('p');
 
 var fotos = [];
 
+
+
 function init(){
     for (let i = 1; i < 35; i++ ){
         fotos[i] = `./src/${i}.jpg`
     };
-    randomImage();
 }
 
 
-function randomImage( ){
+function randomImage(){
     
     textoImagen.textContent = 'Para voltar, clique na imagem!'
     DivTextRandomImage.appendChild(textoImagen);

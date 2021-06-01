@@ -6,7 +6,7 @@ var fotos = [];
 
 
 function init(){
-    for (let i = 1; i < 35; i++ ){
+    for (let i = 1; i < 33; i++ ){
         fotos[i] = `./src/${i}.jpg`
     };
 }
